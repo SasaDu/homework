@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<div class="login">
+		<form action="/abc" method="GET">
+				<div class="username">
+					    <label for="username">姓名：</label>
+						<input type="text" name="username" placeholder="用户名">
+					</div>
+					<div class="passworf">
+						<label for="password">密码：</label>
+						<input type="password" name="password" value="12345678">
+					</div>
+					<div class="sex">
+						<label>性别：</label>
+						<input type="radio" name="sex" value="男" checked="checked">男
+						<input type="radio" name="sex" value="女">女
+					</div>
+					<div class="sexual">
+						<label>取向：</label>
+						<input type="radio" name="sexual" value="男">男
+						<input type="radio" name="sexual" value="女" checked="checked">女
+					</div>
+					<div class="hobby">
+						<label>爱好：</label>
+						<input type="checkbox" name="hobby" value="dota">dota
+						<input type="checkbox" name="hobby" value="旅游" checked="checked">旅游
+						<input type="checkbox" name="hobby" value="宠物" checked="checked">宠物
+					</div>
+					<div class="comment">
+						<label for="article">评论：</label>
+						<textarea name="article" cols="30" rows="10" placeholder="ddd"></textarea>
+					</div>
+					<div class="car">
+						<label>我的car:</label>
+						<select name="car">
+							<option value="萨博">萨博</option>
+							<option value="奥迪">奥迪</option>
+							<option value="奔驰">奔驰</option>
+						</select>
+					</div>
+					<div class="sublime">
+						<button>提交</button>
+					</div>
+		</form>
+	</div>
+</body>
+</html>
